@@ -2,14 +2,16 @@
 A simple web application with a header menu and a home and login page.
 
 Video demo:
-https://user-images.githubusercontent.com/81260130/219477398-0dc27f88-9fff-4640-9ecf-f3dbe35edee8.mov
+[download video here](https://user-images.githubusercontent.com/81260130/219477398-0dc27f88-9fff-4640-9ecf-f3dbe35edee8.mov)
 
 Live demo:
-
+[https://my-sapiaai-menu.netlify.app/](https://my-sapiaai-menu.netlify.app/)
 
 ## Installation
-1. Clone the project to your local machine.
-2. Run ```npm i``` to download and install all dependencies
+1. Clone the project to your local machine, [this link](https://github.com/jeffrey-arias/my-sapiaai-menu.git), or by running:\
+```gh repo clone jeffrey-arias/my-sapiaai-menu```
+
+2. Run ```npm i``` to download and install all dependencies.
 
 ## Running 
 To run the application, run ```npm start``` in your chosen terminal and open [http://localhost:3000](http://localhost:3000) in your browser.
