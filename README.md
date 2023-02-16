@@ -42,6 +42,10 @@ Other considerations:
 ```src\styles``` - The location of all styling classes (using Styled Components library).\
 ```src\___tests___``` - The location of all the unit tests in the same folder structure as the main source code.
 
+## Git branches
+```main``` - The main stable branch that is deployed to the [hosting server](https://my-sapiaai-menu.netlify.app/).\
+```dev``` - The development branch where all changes are initially committed to.
+
 ## Future considerations
 1. Reusability of the ```MyMenu``` component by passing a JSON format props and determining the number and type of ```MyButton``` components to display.
 2. Responsiveness of the web app when viewed in other gadgets (maybe consider Bootstrap here?).
