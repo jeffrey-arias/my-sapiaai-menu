@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# My Sapia.ai Menu
+A simple web application with a header menu and a home and login page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Video demo:
+https://user-images.githubusercontent.com/81260130/219477398-0dc27f88-9fff-4640-9ecf-f3dbe35edee8.mov
 
-## Available Scripts
+Live demo:
 
-In the project directory, you can run:
 
-### `npm start`
+## Installation
+1. Clone the project to your local machine.
+2. Run ```npm i``` to download and install all dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Running 
+To run the application, run ```npm start``` in your chosen terminal and open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Testing
+To run all the tests, run ```npm test``` in your chosen terminal.\
+To run a specific test within the ```___tests---``` library, run ```npm test <NameOfTest>```
 
-### `npm test`
+## Brief outline of the technology stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. React / Typescript - core tech
+2. Styled Components - CSS-in-JS library
+3. React-Router-DOM - router library
+4. Jest - Test library 
 
-### `npm run build`
+Other considerations:
+1. Enzyme / react-test-renderer - briefly considered, but ultimately deemed unnecessary.
+2. Material UI - great component library, but would otherwise not highlight my capabilities to create reusable components on my own.
+3. React-Bootstrap - same with Material UI.
+4. Any other state management libray (like Redux or MobX) and form management library (like react-hook-form or Formik) were all overkill for a simple project and would otherwise not highlight my skills to manage states and the forms properly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Folder structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```src\``` - The root folder of the main source code.\
+```src\pages``` - The location of all the page classes.\
+```src\components``` - The location of all the reusable components.\
+```src\utils``` - The location of all helper and utility classes.\
+```src\styles``` - The location of all styling classes (using Styled Components library).\
+```src\___tests___``` - The location of all the unit tests in the same folder structure as the main source code.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Future considerations
+1. Reusability of the ```MyMenu``` component by passing a JSON format props and determining the number and type of ```MyButton``` components to display.
+2. Responsiveness of the web app when viewed in other gadgets (maybe consider Bootstrap here?).
+3. Send a GET/POST to an actual API.
+4. Create a dummy "Account Summary" page for a successful login.
