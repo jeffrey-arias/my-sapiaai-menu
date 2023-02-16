@@ -14,10 +14,27 @@ export const SubheaderText = styled.text`
     font-size: 1.5rem;
 `;
 
-export const LabelText = styled.text`
+export const InputFieldGroup = styled.div`
+    margin-top: 10px;
+`;
+
+export const LabelText = styled.label`
     font-family: "Open Sans",sans-serif;
     font-size: 1rem;
-    margin-top: 10px;
+`;
+
+export const ErrorText = styled.label`
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    color: red;
+    margin-top: 20px;
+`;
+
+export const SuccessText = styled.label`
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    color: green;
+    margin-top: 20px;
 `;
 
 export const Break = styled.div`

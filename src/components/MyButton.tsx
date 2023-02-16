@@ -5,7 +5,7 @@ interface MyButtonProps {
     label: string;
     dark: boolean;
     long?: boolean;
-    onClick?: () => void;
+    onClick?: any;
     testId?: string;
 }
 export default function MyButton(props: MyButtonProps) {

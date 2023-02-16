@@ -12,10 +12,10 @@ jest.mock("react-router-dom", () => ({
 
 describe("<Home />", () => {
     it("Should render the Home page with the header and subheader texts", () => {
-        const header = render(<Home />, { wrapper: MemoryRouter });
-        expect(header.getByText("Welcome to Sapia.AI")).toBeVisible();
+        const home = render(<Home />, { wrapper: MemoryRouter });
+        expect(home.getByText("Welcome to Sapia.AI")).toBeVisible();
         expect(
-            header.getByText(
+            home.getByText(
                 "AI. Chat. Interviewing. It’s the no-resume enterprise solution."
             )
         ).toBeVisible();
